@@ -94,11 +94,12 @@ export default function Home() {
     <section className="stack-section" id="stack">
       <div className="stack-head" data-reveal><span className="mono">06 / MARKETING OPERATING STACK</span><h2>The systems behind the stories.</h2><p>I use technology as a connected operating system—from intake and orchestration to activation, nurture and measurement—not as a collection of logos.</p></div>
       <div className="stack-grid">
-        <article data-reveal><span className="mono">01 / ORCHESTRATE</span><h3>Plan the work</h3><p>Asana</p><p>Dynamic Forms</p></article>
+        <article data-reveal><span className="mono">01 / ORCHESTRATE</span><h3>Plan together</h3><p>Asana · Dynamic Forms</p><p>Miro · Notion</p></article>
         <article data-reveal><span className="mono">02 / KNOW &amp; NURTURE</span><h3>Move the audience</h3><p>Dynamics 365</p><p>Eloqua</p><p>Dripify</p></article>
-        <article data-reveal><span className="mono">03 / EXPERIENCE</span><h3>Build the journey</h3><p>Adobe Experience Manager</p><p>ON24</p></article>
+        <article data-reveal><span className="mono">03 / EXPERIENCE &amp; CREATE</span><h3>Build the journey</h3><p>Adobe Experience Manager</p><p>ON24 · Figma</p></article>
         <article data-reveal><span className="mono">04 / MEASURE</span><h3>Read the signals</h3><p>GA4</p><p>Adobe Analytics</p></article>
-        <article data-reveal><span className="mono">05 / ACTIVATE &amp; SCALE</span><h3>Reach, learn, repeat</h3><p>LinkedIn Campaign Manager</p><p>Google Ads · Meta Ads</p><p>Claude · Apify</p></article>
+        <article data-reveal><span className="mono">05 / ACTIVATE</span><h3>Reach the market</h3><p>LinkedIn Campaign Manager</p><p>Google Ads · Meta Ads</p><p>Dripify · Apify</p></article>
+        <article className="ai-stack-card" data-reveal><span className="mono">06 / AI SYSTEMS</span><h3>Research, create, scale</h3><p>ChatGPT · Claude</p><p>Antigravity · Copilot</p><p>Lovable</p></article>
       </div>
       <div className="stack-throughline" data-reveal><span className="mono">THE OPERATING LOGIC</span><p><strong>Capture the brief.</strong> Build the journey. Activate across channels. Read the response. Improve the next campaign.</p></div>
     </section>
@@ -106,7 +107,7 @@ export default function Home() {
     <section className="people-section" id="people">
       <div className="people-head" data-reveal><span className="mono">07 / WORKING WITH ME</span><h2>The numbers show what moved. This shows how the work got done.</h2></div>
       <div className="recommendation-words" data-reveal><strong>Dependable.</strong><strong>Proactive.</strong><strong>Hands-on.</strong><strong>Collaborative.</strong></div>
-      <div className="recommendation-note" data-reveal><div><span className="mono">LINKEDIN RECOMMENDATION · SUMMARY</span><h3>Initiative without waiting to be asked—and the ability to connect AI, automation and people across teams.</h3></div><div className="recommendation-source"><strong>Most recent manager · Companial</strong><p>These themes are summarised from a LinkedIn recommendation rather than presented as a verbatim quotation. The full recommendation and references are available on request.</p><a href="https://www.linkedin.com/in/islam-el-saeed" target="_blank" rel="noreferrer">View my LinkedIn <Arrow/></a></div></div>
+      <div className="recommendation-note" data-reveal><div><span className="mono">LINKEDIN RECOMMENDATION · SUMMARY</span><h3>Initiative without waiting to be asked—and the ability to connect AI, automation and people across teams.</h3></div><div className="recommendation-source"><strong>Clarinda Dobbelaar</strong><span>Chief Marketing &amp; Portfolio Officer · Companial</span><p>These themes are summarised from a LinkedIn recommendation rather than presented as a verbatim quotation. The full recommendation and references are available on request.</p><a href="https://www.linkedin.com/in/islam-el-saeed" target="_blank" rel="noreferrer">View my LinkedIn <Arrow/></a></div></div>
     </section>
 
     <footer id="contact"><div className="footer-top mono"><span>08 / LET’S TALK</span><span>AVAILABLE FOR THE NEXT CHALLENGE</span></div><h2>Let’s make the complex feel inevitable.</h2><div className="contact-grid"><a href="mailto:Islam-elsaid@outlook.com"><small>Email</small><strong>Islam-elsaid@outlook.com</strong><span>Start a conversation ↗</span></a><a href="https://www.linkedin.com/in/islam-el-saeed" target="_blank" rel="noreferrer"><small>LinkedIn</small><strong>Islam Elsaeed</strong><span>Connect with me ↗</span></a><a href="tel:+31628499921"><small>Phone</small><strong>+31 6284 999 21</strong><span>Call me ↗</span></a><div><small>Based in</small><strong>Leiden, Netherlands</strong><span>Working across Europe &amp; MENA</span></div></div><div className="footer-bottom mono"><p>Islam Elsaeed · Senior B2B marketing · Strategy, content, demand and AI-enabled workflows</p><a href="#top">Back to top ↑</a></div></footer>
