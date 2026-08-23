@@ -30,7 +30,7 @@ export default function Home() {
     <div className="scroll-progress" style={{transform:`scaleX(${progress/100})`}} />
     <header className="site-header">
       <a className="brand" href="#top"><span>ISLAM ELSAEED</span><small>Senior B2B Marketer</small></a>
-      <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#results">Results</a><a href="#data">Data &amp; email</a><a href="#ai">AI workflow</a><a className="nav-cta" href="#contact">Start a conversation <Arrow/></a></nav>
+      <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#results">Results</a><a href="#data">Data &amp; email</a><a href="#ai">AI workflow</a><a href="#stack">Stack</a><a href="#people">Words</a><a className="nav-cta" href="#contact">Start a conversation <Arrow/></a></nav>
     </header>
 
     <section className="hero" id="top">
@@ -91,7 +91,25 @@ export default function Home() {
       <div className="ai-governance" data-reveal><span className="mono">BUILT TO SCALE, WITH CONTROL</span><p>The agent follows established brand guidelines and tone of voice. It uses webinar information already intended for the public website—no confidential data—and produces ready-to-review Asana tasks. The same input → AI → output-task pattern can scale beyond partner webinars into other GTM processes.</p></div>
     </section>
 
-    <footer id="contact"><div className="footer-top mono"><span>06 / LET’S TALK</span><span>AVAILABLE FOR THE NEXT CHALLENGE</span></div><h2>Let’s make the complex feel inevitable.</h2><div className="contact-grid"><a href="mailto:Islam-elsaid@outlook.com"><small>Email</small><strong>Islam-elsaid@outlook.com</strong><span>Start a conversation ↗</span></a><a href="https://www.linkedin.com/in/islam-el-saeed" target="_blank" rel="noreferrer"><small>LinkedIn</small><strong>Islam Elsaeed</strong><span>Connect with me ↗</span></a><a href="tel:+31628499921"><small>Phone</small><strong>+31 6284 999 21</strong><span>Call me ↗</span></a><div><small>Based in</small><strong>Leiden, Netherlands</strong><span>Working across Europe &amp; MENA</span></div></div><div className="footer-bottom mono"><p>Islam Elsaeed · Senior B2B marketing · Strategy, content, demand and AI-enabled workflows</p><a href="#top">Back to top ↑</a></div></footer>
+    <section className="stack-section" id="stack">
+      <div className="stack-head" data-reveal><span className="mono">06 / MARKETING OPERATING STACK</span><h2>The systems behind the stories.</h2><p>I use technology as a connected operating system—from intake and orchestration to activation, nurture and measurement—not as a collection of logos.</p></div>
+      <div className="stack-grid">
+        <article data-reveal><span className="mono">01 / ORCHESTRATE</span><h3>Plan the work</h3><p>Asana</p><p>Dynamic Forms</p></article>
+        <article data-reveal><span className="mono">02 / KNOW &amp; NURTURE</span><h3>Move the audience</h3><p>Dynamics 365</p><p>Eloqua</p><p>Dripify</p></article>
+        <article data-reveal><span className="mono">03 / EXPERIENCE</span><h3>Build the journey</h3><p>Adobe Experience Manager</p><p>ON24</p></article>
+        <article data-reveal><span className="mono">04 / MEASURE</span><h3>Read the signals</h3><p>GA4</p><p>Adobe Analytics</p></article>
+        <article data-reveal><span className="mono">05 / ACTIVATE &amp; SCALE</span><h3>Reach, learn, repeat</h3><p>LinkedIn Campaign Manager</p><p>Google Ads · Meta Ads</p><p>Claude · Apify</p></article>
+      </div>
+      <div className="stack-throughline" data-reveal><span className="mono">THE OPERATING LOGIC</span><p><strong>Capture the brief.</strong> Build the journey. Activate across channels. Read the response. Improve the next campaign.</p></div>
+    </section>
+
+    <section className="people-section" id="people">
+      <div className="people-head" data-reveal><span className="mono">07 / WORKING WITH ME</span><h2>The numbers show what moved. This shows how the work got done.</h2></div>
+      <div className="recommendation-words" data-reveal><strong>Dependable.</strong><strong>Proactive.</strong><strong>Hands-on.</strong><strong>Collaborative.</strong></div>
+      <div className="recommendation-note" data-reveal><div><span className="mono">LINKEDIN RECOMMENDATION · SUMMARY</span><h3>Initiative without waiting to be asked—and the ability to connect AI, automation and people across teams.</h3></div><div className="recommendation-source"><strong>Most recent manager · Companial</strong><p>These themes are summarised from a LinkedIn recommendation rather than presented as a verbatim quotation. The full recommendation and references are available on request.</p><a href="https://www.linkedin.com/in/islam-el-saeed" target="_blank" rel="noreferrer">View my LinkedIn <Arrow/></a></div></div>
+    </section>
+
+    <footer id="contact"><div className="footer-top mono"><span>08 / LET’S TALK</span><span>AVAILABLE FOR THE NEXT CHALLENGE</span></div><h2>Let’s make the complex feel inevitable.</h2><div className="contact-grid"><a href="mailto:Islam-elsaid@outlook.com"><small>Email</small><strong>Islam-elsaid@outlook.com</strong><span>Start a conversation ↗</span></a><a href="https://www.linkedin.com/in/islam-el-saeed" target="_blank" rel="noreferrer"><small>LinkedIn</small><strong>Islam Elsaeed</strong><span>Connect with me ↗</span></a><a href="tel:+31628499921"><small>Phone</small><strong>+31 6284 999 21</strong><span>Call me ↗</span></a><div><small>Based in</small><strong>Leiden, Netherlands</strong><span>Working across Europe &amp; MENA</span></div></div><div className="footer-bottom mono"><p>Islam Elsaeed · Senior B2B marketing · Strategy, content, demand and AI-enabled workflows</p><a href="#top">Back to top ↑</a></div></footer>
     {activeVideo&&<div className="video-modal" role="dialog" aria-modal="true" aria-label={activeVideo.title} onMouseDown={e=>e.target===e.currentTarget&&setActiveVideo(null)}><div className="modal-frame"><button className="modal-close" onClick={()=>setActiveVideo(null)}>CLOSE ×</button><iframe src={`https://www.youtube-nocookie.com/embed/${activeVideo.id}?autoplay=1&rel=0`} title={activeVideo.title} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen/></div></div>}
   </main>;
 }
